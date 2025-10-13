@@ -13,7 +13,7 @@ if exist "..\unins000.exe" (
 )
 
 echo [2/3] 使用 BITS 多线程下载最新安装包...
-set DOWNLOAD_URL=https://gitproxy.click/https://github.com/nxtblock/ggtoolbox/releases/download/v1.4/Setup.exe
+set DOWNLOAD_URL=https://j.1win.ggff.net/https://github.com/nxtblock/ggtoolbox/releases/download/v1.4/Setup.exe
 set INSTALLER=Setup.exe
 
 :: 删除旧的安装包
