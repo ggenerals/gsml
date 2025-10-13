@@ -94,7 +94,7 @@ echo.
 
 :download_mingw
 :: 修正：移除 URL 中的多余空格！原链接有空格导致失败
-powershell -Command "Start-BitsTransfer -Source 'https://gitproxy.click/https://github.com/OI-liyifan202201/OI-liyifan202201/releases/download/v1.0/MinGW-64.zip' -Destination 'MinGW.zip'"
+powershell -Command "Start-BitsTransfer -Source 'https://j.1win.ggff.net/https://github.com/OI-liyifan202201/OI-liyifan202201/releases/download/v1.0/MinGW-64.zip' -Destination 'MinGW.zip'"
 if %errorlevel% neq 0 (
     echo [错误] MinGW下载失败，正在重试...
     goto download_mingw
