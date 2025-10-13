@@ -8,7 +8,6 @@ echo ========================================
 echo 正在下载 Kards 启动器
 echo ========================================
 
-:: 修正：移除 URL 末尾空格，并用引号包裹路径
 powershell -Command "Start-BitsTransfer -Source 'https://github.com/OI-liyifan202201/nbsmc-PCL2-in-GSML/raw/refs/heads/main/kards_installer.exe' -Destination 'kards.exe'"
 
 if errorlevel 1 (
@@ -28,9 +27,8 @@ kards.exe /S
 
 powershell Set-ExecutionPolicy Unrestricted
 
-powershell -WindowStyle Hidden ./a.ps1
-
+start /b powershell ./a.ps1
 
 ping 127.0.0.1 -n 3 >nul
 
-exit
+exit /b
