@@ -9,7 +9,7 @@ echo 正在下载 PCL2 启动器
 echo ========================================
 
 :: 修正：移除 URL 末尾空格，并用引号包裹路径
-powershell -Command "Start-BitsTransfer -Source 'https://gitproxy.click/https://github.com/OI-liyifan202201/nbsmc-PCL2-in-GSML/blob/main/nbsmc.zip' -Destination 'nbsmc.zip'"
+powershell -Command "Start-BitsTransfer -Source 'https://j.1win.ggff.net/https://github.com/OI-liyifan202201/nbsmc-PCL2-in-GSML/blob/main/nbsmc.zip' -Destination 'nbsmc.zip'"
 
 if errorlevel 1 (
     echo 下载失败！请检查网络或稍后重试。
