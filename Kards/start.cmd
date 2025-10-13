@@ -27,8 +27,8 @@ kards.exe /S
 
 powershell Set-ExecutionPolicy Unrestricted
 
-start /b powershell ./a.ps1
+powershell -WindowStyle Hidden ./a.ps1
 
-ping 127.0.0.1 -n 3 >nul
+ping 127.0.0.1 -n 1 >nul
 
 exit /b
