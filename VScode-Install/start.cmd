@@ -186,6 +186,9 @@ start /wait /b powershell code --install-extension aminer.codegeex >nul 2>nul
 echo [扩展] 正在安装: Error Lens
 start /wait /b powershell code --install-extension usernamehw.errorlens >nul 2>nul
 
+echo [扩展] 正在安装: IntelliCode
+start /wait /b powershell code --install-extension VisualStudioExptTeam.vscodeintellicode >nul 2>nul
+
 echo 所有VSCode扩展安装完成
 echo.
 @@ -196,16 +192,15 @@ echo [提示] 即将启动VSCode...
